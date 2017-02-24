@@ -80,7 +80,7 @@ void holdButton(int power,float time){
 
 void waitForCds(){
     float start = TimeNow();
-    while(cdsCell.Value() > START_LIGHT || TimeNow() - start > 30);
+    while(cdsCell.Value() > START_LIGHT && TimeNow() - start > 30);
 }
 
 
