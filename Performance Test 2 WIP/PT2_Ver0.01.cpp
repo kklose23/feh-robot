@@ -120,7 +120,7 @@ void lookForColor(float dist, int power){
     }
     LCD.WriteLine(red);
     LCD.WriteLine(blue);
-    if (red > blue)
+    if (red > 200)
         LCD.WriteLine("RED");
     else
         LCD.WriteLine("BLUE");
